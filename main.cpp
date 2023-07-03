@@ -69,6 +69,8 @@ int main(){
             break;
         }
 
+        cout << string(buf,0,bytesR) << endl;
+
         send(clientSocket, buf, bytesR + 1, 0);
     }
 
